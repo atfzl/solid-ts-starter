@@ -1107,7 +1107,7 @@
     webpack-dev-middleware "^3.7.0"
     webpack-hot-middleware "^2.25.0"
 
-"@storybook/html@^5.1.11":
+"@storybook/html@~5.1.11":
   version "5.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/html/-/html-5.1.11.tgz#effd8bdf9eb017e32759100e17d0779ce4411b59"
   integrity sha512-CymHZ8KpYwexqVO/uYl3PYFqsmxOrfpilm/vIbxF03fCuch3ayIVGhxlkQcGae7ku5kl5/6ul8wxwxyDBSynkw==
