@@ -702,7 +702,16 @@
     globals "^11.1.0"
     lodash "^4.17.13"
 
-"@babel/types@^7.0.0", "@babel/types@^7.2.0", "@babel/types@^7.4.4", "@babel/types@^7.5.5":
+"@babel/types@^7.0.0":
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.6.1.tgz#53abf3308add3ac2a2884d539151c57c4b3ac648"
+  integrity sha512-X7gdiuaCmA0uRjCmRtYJNAVCc/q+5xSgsfKJHqMN4iNLILX39677fJE1O40arPMh0TTtS9ItH67yre6c7k6t0g==
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.17.13"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.2.0", "@babel/types@^7.4.4", "@babel/types@^7.5.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.5.5.tgz#97b9f728e182785909aa4ab56264f090a028d18a"
   integrity sha512-s63F9nJioLqOlW3UkyMd+BYhXt44YuaFm/VV0VwuteqjYwRrObkU7ra9pY4wAJR3oXi8hJrMcrcJdO/HH33vtw==
@@ -1734,9 +1743,9 @@ babel-plugin-emotion@^10.0.15, babel-plugin-emotion@^10.0.9:
     source-map "^0.5.7"
 
 babel-plugin-jsx-dom-expressions@~0.11.0:
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.11.2.tgz#d6f4d86683643bb7c493a1ea4e17b2c3aaf0b876"
-  integrity sha512-pdpQTSRNNwPhlirPKJ6etBT8T/ICRbguy973jjRli3+0VlH0vYHBWL0uwi7vc7q2uYmUDWIL5y7d/tqyLnwBMQ==
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.11.5.tgz#5b696da318f0566a927344053fd8e5f7ff6a3cb0"
+  integrity sha512-gvzBGCHCzsj7wMCPLoxEvwen95JVDAooYorKZktQPjN6Yw5kYN/YXqHB8887QCMGZ6XwO9qWCRM/JhuCZRwEgg==
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.0.0"
@@ -7042,9 +7051,9 @@ sockjs@0.3.19:
     uuid "^3.0.1"
 
 solid-js@^0.10.3:
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-0.10.3.tgz#7c6ee1f380a7ab8e2bd2e02d262fe79f034a4909"
-  integrity sha512-lvCr+Jwrg17+5jKfgUdk0ZJKkQOpT+w/v6y3rF3V//bYSS7WK8Ujmr+T6i3Ez0pveTPqnTj/9J0NYruQSqlrPA==
+  version "0.10.9"
+  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-0.10.9.tgz#843182ac087028d42815bf8dfd38d967f8341542"
+  integrity sha512-l2E8CD8CZP/3ks+KlSPjV/WblLNPpFs00umf/vs1LJCnHpNWaAAs0D8fAM4674PouvV17BGMTqfzjLnX/iXRzg==
 
 source-list-map@^2.0.0:
   version "2.0.1"
