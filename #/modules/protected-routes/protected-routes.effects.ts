@@ -1,5 +1,5 @@
-import { loginState, setLoginState } from '#/modules/login/state';
-import { history, location } from '#/utils/router';
+import { loginState, setLoginState } from '#/modules/login/login.state';
+import { history, location } from '#/utils/router.util';
 import { createEffect } from 'solid-js';
 
 createEffect(() => {

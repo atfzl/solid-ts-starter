@@ -1,6 +1,6 @@
-import Spinner from '#/components/spinner';
-import { homeLoadPipeline } from '#/modules/home/pipeline';
-import { homeState } from '#/modules/home/state';
+import Spinner from '#/components/spinner/spinner.component';
+import { homeLoadPipeline } from '#/modules/home/home.pipeline';
+import { homeState } from '#/modules/home/home.state';
 import { css } from 'emotion';
 import { For, Match, Switch } from 'solid-js/dom';
 

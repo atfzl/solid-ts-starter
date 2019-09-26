@@ -1,6 +1,6 @@
 import { css } from 'emotion';
-import Routes from './routes';
-import './style';
+import './global.style';
+import Routes from './routes/root.route';
 
 function App() {
   return (

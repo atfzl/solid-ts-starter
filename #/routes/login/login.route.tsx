@@ -1,10 +1,6 @@
-import Spinner from '#/components/spinner';
-import {
-  formPipeline,
-  passwordPipeline,
-  usernamePipeline,
-} from '#/modules/login/pipeline';
-import { loginState } from '#/modules/login/state';
+import Spinner from '#/components/spinner/spinner.component';
+import { formPipeline, passwordPipeline, usernamePipeline } from '#/modules/login/login.pipeline';
+import { loginState } from '#/modules/login/login.state';
 import { css } from 'emotion';
 import { Match, Switch } from 'solid-js/dom';
 

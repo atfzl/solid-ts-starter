@@ -1,7 +1,7 @@
-import { history } from '#/utils/router';
+import { history } from '#/utils/router.util';
 import { fromEvent } from 'rxjs';
 import { delay, map, tap, throttleTime } from 'rxjs/operators';
-import { loginState, setLoginState } from './state';
+import { loginState, setLoginState } from './login.state';
 
 export function formPipeline(formElement: HTMLFormElement) {
   fromEvent(formElement, 'submit')

@@ -1,9 +1,9 @@
-import Header from '#/components/header';
-import '#/modules/protected-routes/effects';
-import { location } from '#/utils/router';
+import Header from '#/components/header/header.component';
+import '#/modules/protected-routes/protected-routes.effects';
+import { location } from '#/utils/router.util';
 import { Match, Show, Switch } from 'solid-js/dom';
-import HomeRoute from './home';
-import LoginRoute from './login';
+import HomeRoute from './home/home.route';
+import LoginRoute from './login/login.route';
 
 function Routes() {
   return (

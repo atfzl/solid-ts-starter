@@ -1,4 +1,4 @@
-import { MultiSearchResult } from '#/interfaces/movieListing';
+import { MultiSearchResult } from '#/models/movie/movie.model';
 import { createState } from 'solid-js';
 
 interface State {
@@ -9,3 +9,4 @@ interface State {
 const [homeState, setHomeState] = createState<State>({});
 
 export { homeState, setHomeState };
+

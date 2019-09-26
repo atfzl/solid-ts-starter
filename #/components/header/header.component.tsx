@@ -1,5 +1,5 @@
-import Link from '#/components/link';
-import { location } from '#/utils/router';
+import Link from '#/components/link/link.component';
+import { location } from '#/utils/router.util';
 import { css } from 'emotion';
 import { Show } from 'solid-js/dom';
 
@@ -8,7 +8,7 @@ function Header() {
     <div
       className={
         (void 0,
-        css`
+          css`
           display: flex;
           justify-content: center;
           align-items: center;
