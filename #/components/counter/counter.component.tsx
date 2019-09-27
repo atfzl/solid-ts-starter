@@ -16,7 +16,7 @@ function Counter() {
     <div
       className={
         (void 0,
-          css`
+        css`
           display: flex;
           padding: 16px;
           background-color: ${state.counter % 2 === 0 ? 'beige' : 'cyan'};
